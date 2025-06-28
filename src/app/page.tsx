@@ -42,12 +42,12 @@ export default function Home() {
             <p className="text-lg font-semibold">Cargando...</p>
           </div>
         ) : viewMode === "table" ? (
-          <PokemonTable
+          <PokemonGrid
             pokemons={filtered}
             onSelectedPokemon={handleSelectedPokemon}
           />
         ) : (
-          <PokemonGrid
+          <PokemonTable
             pokemons={filtered}
             onSelectedPokemon={handleSelectedPokemon}
           />
