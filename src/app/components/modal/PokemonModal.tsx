@@ -1,10 +1,10 @@
-import { POKEMON_TYPES } from "@/app/constants/pokemonTypes";
-import { Pokemon } from "@/app/types/pokemon";
-import { getPokemonImageUrl } from "@/app/utils/getPokemonImage";
-import { AnimatePresence, motion } from "framer-motion";
-import { Ruler, Weight, X } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import { Ruler, Weight, X } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
+import { getPokemonImageUrl } from "@/app/utils/getPokemonImage";
+import { Pokemon } from "@/app/types/pokemon";
+import { POKEMON_TYPES } from "@/app/constants/pokemonTypes";
 
 type PokemonModalProps = {
   pokemon: Pokemon;
